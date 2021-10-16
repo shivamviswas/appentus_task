@@ -32,6 +32,6 @@ class UserController extends GetxController {
 
   void logout() {
     Get.offAll(LoginScreen());
-    logout();
+    BoxDatabase.logout();
   }
 }
